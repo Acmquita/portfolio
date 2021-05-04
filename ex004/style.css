@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+h1{
+    color: white;
+}
+.top-menu{
+    width: 75vw;
+    display: flex;
+    background-color: #000000;
+    margin: 0;
+}
+.top-menu li{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+}
+.top-menu li:first-child{
+    margin-right: auto;
+}
+.foto-perfil{
+
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 25vh;
+}
+.section1{
+    height: 30vh;
+    display: flex;
+    background-color: #005e7c;
+}
+.section2{
+    display: flex;
+    width: 75vw;
+    border-bottom: 2px solid white;   
+}
+.about{
+    width: 75vw;
+}
+.centralize{
+    margin: auto;
+    text-align: center;
+}
+.imagemProjeto{
+    max-width: 90%;
+    border: 2px solid rgb(0, 0, 0);
+}
+td{
+    text-align: left;
+}
+#projetos{
+    background-color: #b9d6f2;
+    margin-top: 1vh ;
+    margin-bottom: 1vh;
+}
+
+.footer{
+    background-color: #005e7c;
+    padding: 20px;
+}
